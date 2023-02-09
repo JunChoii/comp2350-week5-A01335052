@@ -3,9 +3,8 @@ const database = include('/databaseConnection');
 
 async function getAllUsers() {
 	let sqlQuery = `
-		SELECT web_user_id, first_name, last_name, email 
-        	FROM freedb_comp2350-week4-A01335052.web_user
-    `;
+        SELECT web_user_id, first_name, last_name, email 
+        FROM freedb_comp2350-week4-A01335052.web_user`;
 	
 	try {
 		const results = await database.query(sqlQuery);
@@ -18,6 +17,5 @@ async function getAllUsers() {
 		return null;
 	}
 }
-
 
 module.exports = {getAllUsers}

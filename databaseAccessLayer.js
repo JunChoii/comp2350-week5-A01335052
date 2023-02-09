@@ -1,7 +1,7 @@
 const database = include("/databaseConnection");
 
 async function getAllUsers() {
-  let sqlQuery = `SELECT web_user_id, first_name, last_name, email
+  let sqlQuery = `SELECT web_user_id, first_name, last_name, email 
 	FROM freedb_comp2350-week4-A01335052.web_user`;
 
   try {

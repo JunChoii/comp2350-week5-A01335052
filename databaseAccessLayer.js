@@ -1,7 +1,7 @@
 const database = include('/databaseConnection');
 
 
-async function getAllTodos() {
+async function getAllUsers() {
 	let sqlQuery = `
 		SELECT * FROM todo
 	`;
@@ -19,4 +19,4 @@ async function getAllTodos() {
 }
 
 
-module.exports = {getAllTodos}
+module.exports = {getAllUsers}

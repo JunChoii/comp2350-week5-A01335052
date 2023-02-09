@@ -1,5 +1,5 @@
 
-async function getAllTodos() {
+async function getAllUsers() {
 	let data = [
 		  { todo_id: 1, todo_name: 'buy milk' },
 		  { todo_id: 2, todo_name: 'and cheese' },
@@ -11,4 +11,4 @@ async function getAllTodos() {
 }
 
 
-module.exports = {getAllTodos}
+module.exports = {getAllUsers}

@@ -3,10 +3,10 @@ const mysql = require('mysql2/promise');
 const is_qoddi = process.env.IS_QODDI || false;
 
 const dbConfigQoddi = {
-	host: "host",
-	user: "user",
-	password: "password",
-	database: "database",
+	host: "sql.freedb.tech",
+	user: "freedb_junissexy",
+	password: "D2QGXfPpU3aq*aY",
+	database: "freedb_comp2350-week4-A01335052",
 	multipleStatements: false
 };
 
